@@ -1,6 +1,7 @@
 # demo-kafka-sparkstream-hbase
 
 Demo for loading data from Kafka into HBase table through SparkStreaming. Calculates MIN, MAX, AVG (SUM, CNT) on Minute bases.
+
 Kafka topic: demo-stream-topic
 HBase table: demo-log
 HBase family: demo-ts-metrics
