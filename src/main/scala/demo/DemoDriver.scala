@@ -23,7 +23,7 @@ object DemoDriver {
     val consumerGroup = "demo-consumer-group"
     val topic = "demo-stream-topic"
     val numPartitions = 1
-    val numCores = numPartitions + 1  // one Reader per input DStream
+    val numCores = numPartitions + 1  // one Receiver per Kafka partitions occupies 1 thread(local)/cpu(distributed)
 
     val sparkConf = new SparkConf()
       .setAppName("demo-kafka-sparkstream-hbase")
