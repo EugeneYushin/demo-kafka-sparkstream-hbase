@@ -6,7 +6,7 @@ Kafka topic:   demo-stream-topic
 HBase table:   demo-log  
 HBase family:  demo-ts-metrics  
 
-Input data example (paste exactly into Kafka Producer console):
+Input data example (paste exactly into Kafka Producer console):  
 `2015-03-01 01:17:12.874,4`  
 `2015-03-01 01:17:01.874,6`  
 `2015-03-01 01:18:21.874,5`  
